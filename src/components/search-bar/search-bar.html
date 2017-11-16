@@ -1,0 +1,10 @@
+<section class="header">
+	<h3>Search for a Reddit Article!</h3>
+  	<div id="search">
+			<label for="thing">Search:</label>
+			<input [(ngModel)]="query" placeholder="Search for a thing!" name="thing" (keyup)="findGifs(query)" type="text">
+		</div>
+</section>
+<section class="resulties" *ngIf="results">
+		<h4 class="card" *ngFor='let result of results'><a href="{{result.data.url}}">{{result.data.title}}</a></h4>
+</section>

@@ -1,3 +1,28 @@
 page-home {
+	text-align: center;
+}
+#search {
+	text-align: left;
+}
 
+input {
+	margin: 1em 0 2em 0;
+	border: 1px solid black;
+}
+
+.card {
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 2px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	background-color: rgba(34, 197, 241, .4)
+}
+
+.resulties {
+	margin-top: 2em;
 }
